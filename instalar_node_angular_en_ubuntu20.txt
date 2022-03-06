@@ -1,4 +1,5 @@
 echo Se intala curl como requisito previo
+sudo apt-get install wget
 sudo apt install curl
 
 echo -------------- Se instalara nodejs 16, docker y firebase -------------------
