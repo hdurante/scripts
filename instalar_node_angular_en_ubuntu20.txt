@@ -1,3 +1,6 @@
+echo Se intala curl como requisito previo
+sudo apt install curl
+
 echo -------------- Se instalara nodejs 16, docker y firebase -------------------
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install nodejs
