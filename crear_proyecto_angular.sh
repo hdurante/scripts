@@ -12,7 +12,7 @@ echo #y modificar providers: [], por
 echo providers: [SharedService],
 echo import {HttpClientModule} from '@angular/common/http'
 echo import { FormsModule,ReactiveFormsModule } from '@angular/forms'
-echo En componentes agregar
+echo En imports agregar
 echo HttpClientModule,
 echo FormsModule,
 echo ReactiveFormsModule,
