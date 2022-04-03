@@ -18,7 +18,9 @@ echo FormsModule,
 echo ReactiveFormsModule,
 echo
 echo ------------------------------------------------------
-echo En shared.service.ts agregar
+echo En shared.service.ts modificar
+echo constructor(private http:HttpClient) { }
+echo y agregar
 echo  getPeopleList():Observable<any[]>{
 echo    return this.http.get<any[]>(this.urlApiPeoples+'/people/')
 echo  }
