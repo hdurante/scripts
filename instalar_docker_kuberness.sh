@@ -8,7 +8,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 
 sudo chmod +x /usr/local/bin/docker-compose
 
-
+#-----------------------------------------------------------
 sudo apt install apt-transport-https curl
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add
 
@@ -25,12 +25,6 @@ sudo apt install kubectl
 sudo apt-get install -y kubernetes-cni
 sudo apt-get install -y kubelet kubeadm kubectl kubernetes-cni
 
-sudo swapoff -a
-sudo nano /etc/fstab
-sudo hostnamectl set-hostname kubernetes-master
-
-sudo hostnamectl set-hostname kubernetes-worker
-lsmod | grep br_netfilter
-sudo modprobe br_netfilter
-
-sudo sysctl net.bridge.bridge-nf-call-iptables=1
+sudo systemctl enable docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
