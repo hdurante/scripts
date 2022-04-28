@@ -19,6 +19,8 @@ echo ReactiveFormsModule,
 echo
 echo ------------------------------------------------------
 echo En shared.service.ts modificar
+echo import { HttpClient } from '@angular/common/http';
+echo import { Observable } from 'rxjs';
 echo constructor(private http:HttpClient) { }
 echo y agregar
 echo  getPeopleList():Observable<any[]>{
