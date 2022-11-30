@@ -52,15 +52,20 @@ echo
 echo  ---------------------------------------------------------------
 echo app.component.html es nuestra pagina principal si tiene cargado el html demo eliminar todo el contenido para continuar 
 echo en app.component.html se agrega la navegacion (no se agrega diseño personalizar) asi como el router-outlet que permite inscrustra la pagina 
-echo <div>
-echo   <h3>Mi proyecto </h3>
-echo   <nav>
-echo   <ul>
-echo     <li>
-echo       <button routerLink="people">Personas</button>
+echo <div class="container">
+echo 
+echo   <h3 class="d-flex justify-content-center">Italika </h3>
+echo   <h5 class="d-flex justify-content-center">Hola mundo angular</h5>
+echo 
+echo   <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+echo   <ul class="navbar-nav">
+echo     <li class="nav-item">
+echo       <button routerLink="people"
+echo       class="m-1 btn btn-light btn-outline-primary" Button>Personas</button>
 echo     </li>   
-echo     <li>
-echo       <button routerLink="peoplelist">Lista de personas</button>
+echo     <li class="nav-item">
+echo       <button routerLink="peoplelist"
+echo       class="m-1 btn btn-light btn-outline-primary" Button>Lista de personas</button>
 echo     </li>        
 echo   </ul>
 echo   </nav>
@@ -68,6 +73,9 @@ echo
 echo <router-outlet></router-outlet>
 echo 
 echo </div>
+echo ------------------------------------------------------
+echo Agregar bootstrap
+ng add @ng-bootstrap/ng-bootstrap
 echo ------------------------------------------------------
 echo Agregar Charts.js
 npm install chart.js ng2-charts
