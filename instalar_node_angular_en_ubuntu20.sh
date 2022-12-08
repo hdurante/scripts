@@ -7,7 +7,7 @@ curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install nodejs
 node -v
 
-sudo npm install -g @angular/cli
+sudo npm install -g @angular/cli@14.2.10
 
 
 sudo apt-get update
