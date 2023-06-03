@@ -19,6 +19,7 @@ sudo apt install -y gimp
 sudo apt install -y krita
 sudo apt install -y inkscape
 sudo apt install -y kazam
-sudo apt install kdenlive
-sudo apt install plank
-sudo apt install flameshot
+sudo apt install -y kdenlive
+sudo apt install -y plank
+sudo apt install -y flameshot
+sudo apt install -y python3.10-venv
