@@ -4,13 +4,10 @@ echo en
 
 sudo nano /etc/fstab
 
-echo Para poder compartir la pantalla en zoom
-echo activar:
-echo WaylandEnable=false
-sudo nano /etc/gdm3/custom.conf
 
 
-echo Aplicaciones basicas
+
+echo Instalar Aplicaciones basicas
 sudo apt update
 sudo apt install -y wget
 sudo apt install -y curl
@@ -20,6 +17,5 @@ sudo apt install -y krita
 sudo apt install -y inkscape
 sudo apt install -y kazam
 sudo apt install -y kdenlive
-sudo apt install -y plank
 sudo apt install -y flameshot
-sudo apt install -y python3.10-venv
+
