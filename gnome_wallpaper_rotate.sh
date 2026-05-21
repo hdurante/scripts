@@ -1,4 +1,11 @@
 #!/bin/bash
+#######################################################################
+#                                                                     #
+#     This tool evol to wallvibe, a wallpaper manager for linux       #
+#            https://github.com/hdurante/wallvibe/                    #
+#                                                                     #
+#######################################################################
+
 # script to set random background wallpapers on my GNOME desktop
 # set base path
 #gsettings set org.gnome.desktop.background picture-uri "file:/mnt/hgfs/Proyectos/WallPapers/6277.jpg"
